@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCBC - Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+            line-height: 1.7;
+        }
+        h1 { color: #c0392b; }
+        h2 { color: #444; margin-top: 30px; }
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switch a {
+            color: #c0392b;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .section-en, .section-iw { display: block; }
+        .rtl { direction: rtl; text-align: right; }
+        footer {
+            margin-top: 40px;
+            color: #888;
+            font-size: 13px;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="lang-switch">
+    <a onclick="showLang('en')">English</a>
+    <a onclick="showLang('iw')">עברית</a>
+</div>
+
+<!-- ENGLISH -->
+<div id="en" class="section-en">
+    <h1>Privacy Policy — MyCBC</h1>
+    <p><strong>Last updated:</strong> March 2026</p>
+
+    <p>MyCBC ("we", "our", or "the app") is a warehouse management application used by drivers, forklift operators, and warehouse staff. This Privacy Policy explains how we collect, use, and protect your information.</p>
+
+    <h2>1. Information We Collect</h2>
+    <ul>
+        <li><strong>Phone number</strong> — used for authentication via Firebase</li>
+        <li><strong>Name</strong> — displayed in the app for identification</li>
+        <li><strong>Profile photo</strong> — optional, stored in Firebase Storage</li>
+        <li><strong>Location</strong> — used only during check-in to verify presence at warehouse</li>
+        <li><strong>Call logs</strong> — read-only, used to suggest drivers from recent calls (not stored)</li>
+        <li><strong>Device token (FCM)</strong> — used to send push notifications</li>
+        <li><strong>Device ID</strong> — used to manage single active session per user</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+        <li>To authenticate and identify users within the app</li>
+        <li>To manage warehouse entry requests and approvals</li>
+        <li>To send push notifications about request status</li>
+        <li>To verify location at warehouse entry points</li>
+    </ul>
+
+    <h2>3. Data Storage</h2>
+    <p>All data is stored securely in <strong>Google Firebase</strong> (Firestore, Realtime Database, and Storage), protected by Firebase security rules. We do not store data on third-party servers.</p>
+
+    <h2>4. Data Sharing</h2>
+    <p>We do <strong>not</strong> sell, trade, or share your personal data with third parties. Data is only shared within the app between authorized users of the same organization.</p>
+
+    <h2>5. Call Log Access</h2>
+    <p>The app requests access to call logs solely to suggest recently called drivers for faster request creation. Call log data is <strong>never stored</strong> on our servers.</p>
+
+    <h2>6. Location Access</h2>
+    <p>Location is accessed only when a driver initiates a warehouse entry request. It is used to verify physical presence and is not tracked continuously.</p>
+
+    <h2>7. Data Retention</h2>
+    <p>Your data is retained as long as your account is active. Upon account deletion or logout, your FCM token and device ID are removed. You may contact us to request full data deletion.</p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>MyCBC is intended for use by adults in a professional work environment. We do not knowingly collect data from persons under the age of 18.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at: <strong>support@mycbc.app</strong></p>
+</div>
+
+<!-- HEBREW -->
+<div id="iw" class="section-iw rtl" style="display:none;">
+    <h1>מדיניות פרטיות — MyCBC</h1>
+    <p><strong>עודכן לאחרונה:</strong> מרץ 2026</p>
+
+    <p>MyCBC ("אנחנו", "האפליקציה") היא אפליקציית ניהול מחסן המשמשת נהגים, מפעילי מלגזה וצוות המחסן. מדיניות פרטיות זו מסבירה כיצד אנו אוספים, משתמשים ומגנים על המידע שלך.</p>
+
+    <h2>1. המידע שאנו אוספים</h2>
+    <ul>
+        <li><strong>מספר טלפון</strong> — לצורך אימות דרך Firebase</li>
+        <li><strong>שם</strong> — מוצג באפליקציה לזיהוי</li>
+        <li><strong>תמונת פרופיל</strong> — אופציונלי, מאוחסן ב-Firebase Storage</li>
+        <li><strong>מיקום</strong> — נאסף רק בעת צ'ק-אין לאימות נוכחות במחסן</li>
+        <li><strong>יומן שיחות</strong> — קריאה בלבד, להצעת נהגים מהשיחות האחרונות (לא נשמר)</li>
+        <li><strong>טוקן FCM</strong> — לשליחת התראות push</li>
+        <li><strong>מזהה מכשיר</strong> — לניהול סשן פעיל יחיד למשתמש</li>
+    </ul>
+
+    <h2>2. כיצד אנו משתמשים במידע</h2>
+    <ul>
+        <li>לאימות וזיהוי משתמשים באפליקציה</li>
+        <li>לניהול בקשות כניסה למחסן ואישורים</li>
+        <li>לשליחת התראות push על סטטוס הבקשה</li>
+        <li>לאימות מיקום בנקודות כניסה למחסן</li>
+    </ul>
+
+    <h2>3. אחסון מידע</h2>
+    <p>כל המידע מאוחסן בצורה מאובטחת ב-<strong>Google Firebase</strong> (Firestore, Realtime Database ו-Storage), מוגן על ידי כללי אבטחה של Firebase. אנו לא מאחסנים מידע בשרתים של צד שלישי.</p>
+
+    <h2>4. שיתוף מידע</h2>
+    <p>אנו <strong>לא</strong> מוכרים, סוחרים או משתפים את המידע האישי שלך עם צדדים שלישיים. המידע משותף רק בתוך האפליקציה בין משתמשים מורשים של אותה ארגון.</p>
+
+    <h2>5. גישה ליומן שיחות</h2>
+    <p>האפליקציה מבקשת גישה ליומן שיחות אך ורק להצעת נהגים שנקראו לאחרונה ליצירת בקשה מהירה יותר. נתוני יומן השיחות <strong>לעולם אינם נשמרים</strong> בשרתינו.</p>
+
+    <h2>6. גישה למיקום</h2>
+    <p>המיקום נגיש רק כאשר נהג יוזם בקשת כניסה למחסן. הוא משמש לאימות נוכחות פיזית ואינו נעקב ברציפות.</p>
+
+    <h2>7. שמירת מידע</h2>
+    <p>המידע שלך נשמר כל עוד החשבון שלך פעיל. עם מחיקת החשבון או יציאה, טוקן ה-FCM ומזהה המכשיר שלך מוסרים. ניתן לפנות אלינו לבקשת מחיקת נתונים מלאה.</p>
+
+    <h2>8. פרטיות ילדים</h2>
+    <p>MyCBC מיועדת לשימוש על ידי מבוגרים בסביבת עבודה מקצועית. אנו לא אוספים ביודעין מידע מאנשים מתחת לגיל 18.</p>
+
+    <h2>9. צור קשר</h2>
+    <p>אם יש לך שאלות לגבי מדיניות פרטיות זו, אנא צור איתנו קשר: <strong>support@mycbc.app</strong></p>
+</div>
+
+<footer>
+    <p>© 2026 MyCBC. All rights reserved.</p>
+</footer>
+
+<script>
+    function showLang(lang) {
+        document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+        document.getElementById('iw').style.display = lang === 'iw' ? 'block' : 'none';
+    }
+</script>
+
+</body>
+</html>
